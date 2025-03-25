@@ -23,5 +23,16 @@ namespace AT2_WFCadastroPessoa
             form.ShowDialog();
 
         }
+
+        private void mnsListar_Click(object sender, EventArgs e)
+        {
+            FormListar form = new FormListar();
+            form.ShowDialog();
+        }
+
+        private void mnsSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -23,6 +23,7 @@ namespace AT2_WFCadastroPessoa
             us.DataCadastro = DateTime.Now;
 
             Usuario.ListaUsuarios.Add(us);
+
         }
     }
     

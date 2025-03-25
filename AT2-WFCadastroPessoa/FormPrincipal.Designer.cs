@@ -59,12 +59,14 @@
             mnsListar.Name = "mnsListar";
             mnsListar.Size = new Size(47, 20);
             mnsListar.Text = "Listar";
+            mnsListar.Click += mnsListar_Click;
             // 
             // mnsSair
             // 
             mnsSair.Name = "mnsSair";
             mnsSair.Size = new Size(38, 20);
             mnsSair.Text = "Sair";
+            mnsSair.Click += mnsSair_Click;
             // 
             // pictureBox1
             // 
